@@ -1,13 +1,9 @@
-
-# Salir si hay un error
+#!/bin/bash
 set -e
 
-# Listar todos los archivos para diagnosticar
-echo "--- Listando archivos del proyecto ---"
+echo "--- Compilando proyecto Go ---"
 ls -R
 echo "------------------------------------"
 
-# Construir el cliente de React
-cd client
-npm install
-npm run build
+# Construir y ejecutar el backend en Go
+go build -o main .
