@@ -1,0 +1,14 @@
+# Node
+/client/node_modules
+npm-debug.log
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# OS
+.DS_Store
+Thumbs.db
